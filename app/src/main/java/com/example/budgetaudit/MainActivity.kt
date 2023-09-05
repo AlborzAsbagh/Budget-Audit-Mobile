@@ -11,6 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.budgetaudit.screens.OpeningScreen
+import com.example.budgetaudit.screens.Signin
 import com.example.budgetaudit.ui.theme.BudgetAuditTheme
 
 class MainActivity : ComponentActivity() {
@@ -28,7 +29,7 @@ class MainActivity : ComponentActivity() {
                         verticalArrangement = Arrangement.Center,
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
-                        OpeningScreen()
+                        Signin()
                     }
                 }
             }
